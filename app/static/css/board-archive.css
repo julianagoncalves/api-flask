@@ -1,0 +1,39 @@
+#menu{
+  background-color: #272b24;
+  width: auto;
+  height: 50px;
+}
+
+.logo{
+  background-image:url(../img/logo-leankit.png);
+  background-position: -44px 0;
+  width: 110px;
+  background-repeat: no-repeat;
+  height: 44px;
+  margin: 0 0 0 12px;
+  cursor: pointer;
+}
+
+.logo::after{
+    content: '';
+    height: 23px;
+    width: 1px;
+    background-color: #484d43;
+    position: relative;
+    top: 10px;
+    right: 0;
+    float: right;
+}
+
+.title{
+    color: #FFF;
+    text-transform: uppercase;
+    overflow: hidden;
+    font-size: 1.4em;
+    line-height: 1.9em;
+    margin-top: -42px;
+    margin-left: 130px;
+    padding: 0;
+    font-weight: 400;
+    float:left;
+}
